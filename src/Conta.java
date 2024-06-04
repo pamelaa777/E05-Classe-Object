@@ -122,9 +122,7 @@ public class Conta {
     }
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
         Conta that = (Conta) obj;
-        return numero == that.numero;
+        return this.numero == that.numero;
     }
 }

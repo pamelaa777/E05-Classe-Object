@@ -12,11 +12,11 @@ public class Main {
         );
 
         PessoaFisica junia = new PessoaFisica(
-                "Junia",
+                "João",
                 "Av. Antonio Carlos. 6627",
                 "324.310.130-15",
-                30,
-                'f'
+                36,
+                'm'
         );
 
         System.out.println(joao.toString());
@@ -73,5 +73,9 @@ public class Main {
         } else {
             System.out.println("CPF Inválido!");
         }
+
+        String x = "23";
+        System.out.println(x=="23");
+
     }
 }

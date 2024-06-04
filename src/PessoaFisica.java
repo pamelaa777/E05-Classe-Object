@@ -24,6 +24,6 @@ public class PessoaFisica extends Cliente {
     }
     @Override
     public boolean equals(Object obj) {
-        return cpf.equals(((PessoaFisica) obj).cpf);
+        return this.cpf.equals(((PessoaFisica) obj).cpf);
     }
 }
